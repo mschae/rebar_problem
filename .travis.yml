@@ -4,3 +4,5 @@ elixir:
 otp_release:
   - 17.4
 sudo: false # to use faster container based build environment
+before_script:
+  - rebar -V
