@@ -26,7 +26,8 @@ defmodule RebarProblem.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:amqp, "~> 0.1.0"}
+      {:amqp, "~> 0.1.0"},
+      {:amqp_client, github: "d0rc/amqp_client", override: true}
     ]
   end
 end
